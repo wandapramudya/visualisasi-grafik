@@ -34,19 +34,4 @@ def break_even_tab():
     ax.set_title("Grafik Break-Even Point")
     ax.legend()
     st.pyplot(fig)
-  import streamlit as st
-
-st.sidebar.title("Menu Utama")
-menu = st.sidebar.selectbox("Pilih Model", ["Linear Programming", "EOQ", "Antrian M/M/1", "Break-Even Analysis"])
-
-if menu == "Linear Programming":
-    # kode tab 1
-    pass
-elif menu == "EOQ":
-    # kode tab 2
-    pass
-elif menu == "Antrian M/M/1":
-    # kode tab 3
-    pass
-elif menu == "Break-Even Analysis":
-    break_even_tab()
+ 
